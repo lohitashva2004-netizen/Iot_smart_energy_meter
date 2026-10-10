@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "IoT Based Smart Energy Meter"
+type: software
+authors:
+  - family-names: "V S"
+    given-names: "Lohitashva"
+  - family-names: "L"
+    given-names: "Jayaprakash"
+  - family-names: "G H"
+    given-names: "Prabhanjan"
+date-released: 2025-11-01
+license: MIT
+abstract: "Low-cost ESP32 smart energy meter using a ZMPT101B voltage module and SCT-013 clamp CT, with LCD and Blynk dashboards, plus a tested reference model of the measurement chain."

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iot-smart-energy-meter"
+version = "1.0.0"
+description = "Reference model and firmware for a low-cost ESP32 smart energy meter (ZMPT101B + SCT-013, LCD, Blynk): RMS metering maths, calibration, energy accumulation and ADC-resolution analysis."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Lohitashva V S" }, { name = "Jayaprakash L" }, { name = "Prabhanjan G H" }]
+dependencies = ["numpy>=1.23", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

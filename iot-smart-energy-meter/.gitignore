@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.DS_Store
+# firmware secrets: Wi-Fi password and Blynk auth token
+firmware/smart_energy_meter/secrets.h
